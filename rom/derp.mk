@@ -19,6 +19,6 @@ include device/motorola/targets/include/common.mk
 $(call inherit-product, vendor/derp/config/common_full_phone.mk)
 
 # Kernel
-$(call inherit-product, device/motorola/targets/include/kernel/source.mk)
+$(call inherit-product, device/motorola/targets/include/kernel/prebuilt.mk)
 
 PRODUCT_NAME := derp_$(DEVICE)
